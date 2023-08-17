@@ -1,0 +1,255 @@
+*{
+padding:0;
+margin: 0;
+}
+body {
+    background: hsl(0, 1%, 69%);
+    color: #000000;
+}
+nav {
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top{
+    display: flex;
+    margin: 10px 10px;
+}
+.top img{
+width: 50px;
+height: 50px;
+margin: 10px;
+border-radius:50%;
+}
+nav h1{
+    color: red;
+    font-size: 3rem;
+    margin: 10px 5px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 25px 40px;
+    font-size: 1.2rem; 
+}
+nav ul li a:hover{
+    color: black;
+    font-size: 1.7rem;
+}
+
+nav ul li a {
+    font-size: 1.3rem;
+    color: red;
+    text-decoration: double;
+}
+.left img{
+    width: 95%;
+    height: auto;
+    margin: 5% 0%;
+    border-radius: 10%;
+}
+.first{
+    display: flex;   
+}
+.first div{
+    width: 50%;
+}
+.right{
+    padding: 5% 5%;
+    font-size:xxx-large;
+}
+.right h1{
+    color: red;
+}
+.right h6{
+    font-size: 2.5vh;
+    padding: 3vh 0vh;
+    color: rgb(108, 108, 108);
+}
+.right button{
+    border-radius: 100vh;
+    background-color:rgb(98, 98, 98);
+    color: black;
+    font-size: 4vh;
+    border: none;
+    height: 10vh;
+    width: 31vh;
+}
+.right button:hover{
+background-color:black;
+color: white;
+}
+
+hr{
+background: black;
+height: 5px;
+margin: 0% 3%;
+}
+.second h1{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    text-align: center;
+    background-color:rgb(2, 2, 2);
+    margin: 1% 35%;
+    border-radius: 100vh;
+}
+.third{
+    background-color: (108, 108, 108);
+   display: flex;
+   width: 100%;
+   height: 60vh;
+}
+.third div{
+    color: white;
+    font-size: 10px;
+    margin: 5vh 2%;
+    background-color: rgb(52, 50, 50);
+    border-radius: 5vh;
+    height: 50vh;
+    width: 29%;
+}
+.third h1{
+    font-size: 2rem;
+    color: #ff0000;
+    padding: 3vh 25%;
+}
+.third p{
+    font-size:1rem;
+    padding: 1vh 1vh;
+}
+.a button{
+background-color: #ff0000;  
+margin: 70px 0;
+}
+.b button{
+    background-color: #ff0000; 
+margin: 70px 0;
+}
+.c button{
+    background-color: #ff0000; 
+    margin: 70px 0;
+}
+.forth h1{
+    margin:1% 30% ;
+    background-color:black;
+font-size: 4rem;
+color: white;
+text-align: center;
+border-radius: 10vh;
+}
+.fifth{
+    width: 100%;
+}
+.one{
+    display: flex;
+}
+.two{
+    display: flex;
+}
+.three{
+    display: flex;
+}
+.four{
+    display: flex;
+}
+.img{
+    
+    width: 50%;
+    background-color: #2b2a2a;
+}
+.text{
+    font-size:x-large;
+    color: black;
+    width: 50%;
+    background-color: rgb(72, 72, 72);
+}
+.fifth img{
+    border-radius: 10%;
+    margin: 0 25%;
+    width: 50%;
+}
+.fifth h1{
+    color: white;
+}
+.fifth h2{
+    color: red;
+}
+.text div{
+    margin: 0% 5%;
+}
+
+.contact h1{
+    color: white;
+    margin: 1% 33%;
+    text-align: center;
+    background-color: black;
+    font-size: 4rem;
+    border-radius: 10vh;
+}
+.data{
+    display: flex;
+}
+.form{
+    padding: 5vh 1vh;
+    width: 50%;
+    color: red;
+    background-color: #2b2a2a;
+}
+.form div{
+    padding: 2vh 10%;
+}
+.form input{
+    border-color :black;
+background-color: #ffffff;
+}
+.form textarea{
+    background-color: #ebe9e9;
+}
+.info{
+    background-color:rgb(255, 254, 254);
+    width: 50%;
+}
+.info img{
+    width: 10vh;
+    height: 10vh;
+    padding: 3vh 4vh;
+}
+.info img:hover{
+    transform: scale(1.5);
+}
+.linkedin{
+display: flex;
+align-items: center;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+}
+.youtube{
+    display: flex;
+    align-items: center;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+}
+.call{
+    display: flex;
+    align-items: center;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+}
+
+
